@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    margin: 0 auto;
+    height: 500px;
+    width: 370px;
+    align-items: center;
+   
+}
+.calculator:hover{
+    box-shadow: 1px 1px 10px ;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+.cal-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    height: 90px;
+    width: 99%;
+    border: 1px solid rgb(12, 169, 237);
+    font-size: 24px;
+    text-align: right;
+    outline: none;
+}
+
+.calbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.key {
+
+    height: 80px;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: black;
+    margin: 1px 1px;
+    border: none;
+    
+}
+.cal-body button:hover{
+    background-color: pink;
+}
+.special{
+  background-color: rgb(38, 0, 255);
+}
+.special:hover{
+ background-color: pink;
+ 
+}
